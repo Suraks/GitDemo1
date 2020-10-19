@@ -101,6 +101,11 @@ public class BookTabClassTest {
 		//driver.findElement(By.xpath(
 				//"//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR']/table/tbody/tr[2]/td[2]/div[3]/div[@id='dropdownGroup1']/div/ul[3]/li[12]"))
 				//.click();
+		
+		System.out.println("post jira");
+		System.out.println("post jira1");
+		System.out.println("post jira2");
+		
 
 	}
 	

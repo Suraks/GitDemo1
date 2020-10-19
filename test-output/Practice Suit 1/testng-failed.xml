@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Practice Suit 1]">
+  <parameter name="driverProperty" value="webdriver.chrome.driver"/>
+  <parameter name="driverPropertyValue" value="C://Users//DELL//Desktop//Selenium Practice//Chrome Driver//chromedriver_win32 (1)//chromedriver.exe"/>
+  <test thread-count="5" name="Test 1(failed)">
+    <classes>
+      <class name="com.learning.bookTabClasses.BookTabClassTest">
+        <methods>
+          <include name="setTestResult"/>
+          <include name="loadSpiceJetHome"/>
+          <include name="bookFlights"/>
+          <include name="toLog"/>
+        </methods>
+      </class> <!-- com.learning.bookTabClasses.BookTabClassTest -->
+    </classes>
+  </test> <!-- Test 1(failed) -->
+</suite> <!-- Failed suite [Practice Suit 1] -->

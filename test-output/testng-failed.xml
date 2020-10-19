@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.learning.bookTabClasses.BookTabClassTest">
+        <methods>
+          <include name="setTestResult"/>
+          <include name="loadSpiceJetHome"/>
+          <include name="loadSpiceJetHome"/>
+          <include name="bookFlights"/>
+          <include name="toLog"/>
+        </methods>
+      </class> <!-- com.learning.bookTabClasses.BookTabClassTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

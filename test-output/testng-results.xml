@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Practice Suit 1" duration-ms="18645" started-at="2020-10-18T08:31:19Z" finished-at="2020-10-18T08:31:38Z">
+    <groups>
+    </groups>
+    <test name="Test 1" duration-ms="18645" started-at="2020-10-18T08:31:19Z" finished-at="2020-10-18T08:31:38Z">
+      <class name="com.learning.bookTabClasses.BookTabClassTest">
+        <test-method status="PASS" signature="loadSpiceJetHome(java.lang.String, java.lang.String)[pri:0, instance:com.learning.bookTabClasses.BookTabClassTest@482f8f11]" name="loadSpiceJetHome" is-config="true" duration-ms="12059" started-at="2020-10-18T08:31:19Z" finished-at="2020-10-18T08:31:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webdriver.chrome.driver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C://Users//DELL//Desktop//Selenium Practice//Chrome Driver//chromedriver_win32 (1)//chromedriver.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadSpiceJetHome -->
+        <test-method status="PASS" signature="bookFlights()[pri:0, instance:com.learning.bookTabClasses.BookTabClassTest@482f8f11]" name="bookFlights" duration-ms="4898" started-at="2020-10-18T08:31:31Z" finished-at="2020-10-18T08:31:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlights -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:com.learning.bookTabClasses.BookTabClassTest@482f8f11]" name="setTestResult" is-config="true" duration-ms="1645" started-at="2020-10-18T08:31:36Z" finished-at="2020-10-18T08:31:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bookFlights status=SUCCESS method=BookTabClassTest.bookFlights()[pri:0, instance:com.learning.bookTabClasses.BookTabClassTest@482f8f11] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="toLog()[pri:0, instance:com.learning.bookTabClasses.BookTabClassTest@482f8f11]" name="toLog" is-config="true" duration-ms="0" started-at="2020-10-18T08:31:38Z" finished-at="2020-10-18T08:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toLog -->
+      </class> <!-- com.learning.bookTabClasses.BookTabClassTest -->
+    </test> <!-- Test 1 -->
+  </suite> <!-- Practice Suit 1 -->
+</testng-results>
